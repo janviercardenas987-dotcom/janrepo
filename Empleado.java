@@ -14,4 +14,8 @@ public class Empleado extends Persona{
     public void setCargo(String cargo) {
         if (!(cargo == null || cargo.trim().isEmpty())) this.cargo = cargo;
     }
+
+    public void trabajo(){
+        System.out.println("El empleado " + nombre + " " + apellido + " tiene un trabajo de " + cargo);
+    }
 }
