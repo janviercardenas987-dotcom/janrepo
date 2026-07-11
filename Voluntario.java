@@ -16,6 +16,7 @@ public class Voluntario extends Persona{
 
     public void setHorasTrabajadas(int horasTrabajadas) {
         if (horasTrabajadas >= 0)this.horasTrabajadas = horasTrabajadas;
+
     }
 
     public String getProfesion() {
